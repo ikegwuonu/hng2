@@ -1,0 +1,16 @@
+.Miniheader{
+    background: var(--blue);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 0.6rem;
+    padding: 0.5rem 0rem;
+    line-height: 0.8rem;
+    align-items: center;
+}
+@media(max-width:769px){
+    .Miniheader>:nth-child(2),
+    .Miniheader>:nth-child(3){
+        display: none;
+    }
+}

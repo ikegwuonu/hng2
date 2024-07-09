@@ -1,0 +1,73 @@
+.Checkout-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 8rem;
+}
+.breadcrumb{
+    font-size: 1rem;
+}
+.grey{
+    color:grey;
+}
+.blue{
+    background: var(--blue);
+    color: white;
+    padding: 5px;
+    border: none;
+    width: max-content;
+}
+.bluetext{
+    color: var(--blue);
+}
+.checkout{
+    display: flex;
+    justify-content: space-between;
+}
+.billing{
+      
+    flex: 2;
+    width: 90%;
+}
+.billing>input{
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: lightgray;
+    border: 2px solid grey;
+}
+
+.payment{
+    flex:1;
+    gap: 0.2rem;
+    line-height: 1.5rem;
+    border: 1px solid var(--blue);
+    padding: 1rem;
+    border-radius: 5px;
+    height: max-content;
+    
+}
+.coupon{
+    border-radius: 5px;
+    padding: 5px;
+}
+.purchase{
+    display: flex;
+    margin: 0 auto;
+    
+}
+.bold{
+    font-weight: bold;
+}
+@media(max-width:769px){
+    .checkout{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .Checkout-container{
+        padding: 0.1rem 1rem;
+    }
+    .billing>input{
+        width: 100%;
+    }
+}

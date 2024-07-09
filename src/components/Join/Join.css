@@ -1,0 +1,29 @@
+.Join{
+   padding: 3rem 0;
+    color: white;
+    text-align: center;
+    background: blue;
+    justify-content: center;
+}
+.email-container{
+   max-width: fit-content; 
+   background: white;
+   margin: 0 auto;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   
+}
+.email-container ::placeholder{
+    font-weight: bold;
+    color: var(--blue);
+}
+.email-container .but{
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    
+}
