@@ -7,6 +7,9 @@
     justify-content: space-between;
      gap: 1rem;
 }
+.hero-image>img{
+    max-width:300px;
+}
 
 @media(max-width:769px){
     .Hero{
